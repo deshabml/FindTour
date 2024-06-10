@@ -11,22 +11,22 @@
 		DD0EB5C02C173161007AAC8B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0EB5BF2C173161007AAC8B /* ContentView.swift */; };
 		DD0EB5C22C173163007AAC8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD0EB5C12C173163007AAC8B /* Assets.xcassets */; };
 		DD0EB5C52C173163007AAC8B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD0EB5C42C173163007AAC8B /* Preview Assets.xcassets */; };
-		DD0EB5CF2C173163007AAC8B /* FindTourTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0EB5CE2C173163007AAC8B /* FindTourTests.swift */; };
-		DD0EB5D92C173163007AAC8B /* FindTourUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0EB5D82C173163007AAC8B /* FindTourUITests.swift */; };
-		DD0EB5DB2C173163007AAC8B /* FindTourUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0EB5DA2C173163007AAC8B /* FindTourUITestsLaunchTests.swift */; };
+		FA0314ED2C177BAD0096616C /* FindTourTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0314EC2C177BAD0096616C /* FindTourTests.swift */; };
+		FA0314FA2C177BBC0096616C /* FindTourUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0314F92C177BBC0096616C /* FindTourUITests.swift */; };
+		FA0314FC2C177BBC0096616C /* FindTourUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0314FB2C177BBC0096616C /* FindTourUITestsLaunchTests.swift */; };
 		FAB1D2242C173CDF00C5A5F7 /* Constants.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB1D2232C173CDF00C5A5F7 /* Constants.framework */; };
 		FAB1D2252C173CDF00C5A5F7 /* Constants.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FAB1D2232C173CDF00C5A5F7 /* Constants.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DD0EB5CB2C173163007AAC8B /* PBXContainerItemProxy */ = {
+		FA0314EE2C177BAD0096616C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DD0EB5B22C173160007AAC8B /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = DD0EB5B92C173161007AAC8B;
 			remoteInfo = FindTour;
 		};
-		DD0EB5D52C173163007AAC8B /* PBXContainerItemProxy */ = {
+		FA0314FD2C177BBC0096616C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DD0EB5B22C173160007AAC8B /* Project object */;
 			proxyType = 1;
@@ -55,11 +55,11 @@
 		DD0EB5BF2C173161007AAC8B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DD0EB5C12C173163007AAC8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD0EB5C42C173163007AAC8B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		DD0EB5CA2C173163007AAC8B /* FindTourTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindTourTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD0EB5CE2C173163007AAC8B /* FindTourTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindTourTests.swift; sourceTree = "<group>"; };
-		DD0EB5D42C173163007AAC8B /* FindTourUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindTourUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD0EB5D82C173163007AAC8B /* FindTourUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindTourUITests.swift; sourceTree = "<group>"; };
-		DD0EB5DA2C173163007AAC8B /* FindTourUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindTourUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FA0314EA2C177BAD0096616C /* FindTourTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindTourTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA0314EC2C177BAD0096616C /* FindTourTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindTourTests.swift; sourceTree = "<group>"; };
+		FA0314F72C177BBC0096616C /* FindTourUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindTourUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA0314F92C177BBC0096616C /* FindTourUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindTourUITests.swift; sourceTree = "<group>"; };
+		FA0314FB2C177BBC0096616C /* FindTourUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindTourUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FAB1D2212C173CD400C5A5F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		FAB1D2232C173CDF00C5A5F7 /* Constants.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Constants.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -73,14 +73,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD0EB5C72C173163007AAC8B /* Frameworks */ = {
+		FA0314E72C177BAD0096616C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD0EB5D12C173163007AAC8B /* Frameworks */ = {
+		FA0314F42C177BBB0096616C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -94,8 +94,8 @@
 			isa = PBXGroup;
 			children = (
 				DD0EB5BC2C173161007AAC8B /* FindTour */,
-				DD0EB5CD2C173163007AAC8B /* FindTourTests */,
-				DD0EB5D72C173163007AAC8B /* FindTourUITests */,
+				FA0314EB2C177BAD0096616C /* FindTourTests */,
+				FA0314F82C177BBC0096616C /* FindTourUITests */,
 				DD0EB5BB2C173161007AAC8B /* Products */,
 				FAB1D2222C173CDF00C5A5F7 /* Frameworks */,
 			);
@@ -105,8 +105,8 @@
 			isa = PBXGroup;
 			children = (
 				DD0EB5BA2C173161007AAC8B /* FindTour.app */,
-				DD0EB5CA2C173163007AAC8B /* FindTourTests.xctest */,
-				DD0EB5D42C173163007AAC8B /* FindTourUITests.xctest */,
+				FA0314EA2C177BAD0096616C /* FindTourTests.xctest */,
+				FA0314F72C177BBC0096616C /* FindTourUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,23 +131,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		DD0EB5CD2C173163007AAC8B /* FindTourTests */ = {
-			isa = PBXGroup;
-			children = (
-				DD0EB5CE2C173163007AAC8B /* FindTourTests.swift */,
-			);
-			path = FindTourTests;
-			sourceTree = "<group>";
-		};
-		DD0EB5D72C173163007AAC8B /* FindTourUITests */ = {
-			isa = PBXGroup;
-			children = (
-				DD0EB5D82C173163007AAC8B /* FindTourUITests.swift */,
-				DD0EB5DA2C173163007AAC8B /* FindTourUITestsLaunchTests.swift */,
-			);
-			path = FindTourUITests;
-			sourceTree = "<group>";
-		};
 		DD0EB5E72C173224007AAC8B /* Supporting files */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,6 +145,23 @@
 				DD0EB5BD2C173161007AAC8B /* FindTourApp.swift */,
 			);
 			path = Application;
+			sourceTree = "<group>";
+		};
+		FA0314EB2C177BAD0096616C /* FindTourTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA0314EC2C177BAD0096616C /* FindTourTests.swift */,
+			);
+			path = FindTourTests;
+			sourceTree = "<group>";
+		};
+		FA0314F82C177BBC0096616C /* FindTourUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA0314F92C177BBC0096616C /* FindTourUITests.swift */,
+				FA0314FB2C177BBC0096616C /* FindTourUITestsLaunchTests.swift */,
+			);
+			path = FindTourUITests;
 			sourceTree = "<group>";
 		};
 		FAB1D2222C173CDF00C5A5F7 /* Frameworks */ = {
@@ -193,40 +193,40 @@
 			productReference = DD0EB5BA2C173161007AAC8B /* FindTour.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DD0EB5C92C173163007AAC8B /* FindTourTests */ = {
+		FA0314E92C177BAD0096616C /* FindTourTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DD0EB5E12C173163007AAC8B /* Build configuration list for PBXNativeTarget "FindTourTests" */;
+			buildConfigurationList = FA0314F02C177BAD0096616C /* Build configuration list for PBXNativeTarget "FindTourTests" */;
 			buildPhases = (
-				DD0EB5C62C173163007AAC8B /* Sources */,
-				DD0EB5C72C173163007AAC8B /* Frameworks */,
-				DD0EB5C82C173163007AAC8B /* Resources */,
+				FA0314E62C177BAD0096616C /* Sources */,
+				FA0314E72C177BAD0096616C /* Frameworks */,
+				FA0314E82C177BAD0096616C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DD0EB5CC2C173163007AAC8B /* PBXTargetDependency */,
+				FA0314EF2C177BAD0096616C /* PBXTargetDependency */,
 			);
 			name = FindTourTests;
 			productName = FindTourTests;
-			productReference = DD0EB5CA2C173163007AAC8B /* FindTourTests.xctest */;
+			productReference = FA0314EA2C177BAD0096616C /* FindTourTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DD0EB5D32C173163007AAC8B /* FindTourUITests */ = {
+		FA0314F62C177BBB0096616C /* FindTourUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DD0EB5E42C173163007AAC8B /* Build configuration list for PBXNativeTarget "FindTourUITests" */;
+			buildConfigurationList = FA0314FF2C177BBC0096616C /* Build configuration list for PBXNativeTarget "FindTourUITests" */;
 			buildPhases = (
-				DD0EB5D02C173163007AAC8B /* Sources */,
-				DD0EB5D12C173163007AAC8B /* Frameworks */,
-				DD0EB5D22C173163007AAC8B /* Resources */,
+				FA0314F32C177BBB0096616C /* Sources */,
+				FA0314F42C177BBB0096616C /* Frameworks */,
+				FA0314F52C177BBB0096616C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DD0EB5D62C173163007AAC8B /* PBXTargetDependency */,
+				FA0314FE2C177BBC0096616C /* PBXTargetDependency */,
 			);
 			name = FindTourUITests;
 			productName = FindTourUITests;
-			productReference = DD0EB5D42C173163007AAC8B /* FindTourUITests.xctest */;
+			productReference = FA0314F72C177BBC0096616C /* FindTourUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -236,18 +236,18 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1540;
+				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
 					DD0EB5B92C173161007AAC8B = {
 						CreatedOnToolsVersion = 15.4;
 					};
-					DD0EB5C92C173163007AAC8B = {
-						CreatedOnToolsVersion = 15.4;
+					FA0314E92C177BAD0096616C = {
+						CreatedOnToolsVersion = 14.2;
 						TestTargetID = DD0EB5B92C173161007AAC8B;
 					};
-					DD0EB5D32C173163007AAC8B = {
-						CreatedOnToolsVersion = 15.4;
+					FA0314F62C177BBB0096616C = {
+						CreatedOnToolsVersion = 14.2;
 						TestTargetID = DD0EB5B92C173161007AAC8B;
 					};
 				};
@@ -266,8 +266,8 @@
 			projectRoot = "";
 			targets = (
 				DD0EB5B92C173161007AAC8B /* FindTour */,
-				DD0EB5C92C173163007AAC8B /* FindTourTests */,
-				DD0EB5D32C173163007AAC8B /* FindTourUITests */,
+				FA0314E92C177BAD0096616C /* FindTourTests */,
+				FA0314F62C177BBB0096616C /* FindTourUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -282,14 +282,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD0EB5C82C173163007AAC8B /* Resources */ = {
+		FA0314E82C177BAD0096616C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD0EB5D22C173163007AAC8B /* Resources */ = {
+		FA0314F52C177BBB0096616C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -308,35 +308,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD0EB5C62C173163007AAC8B /* Sources */ = {
+		FA0314E62C177BAD0096616C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD0EB5CF2C173163007AAC8B /* FindTourTests.swift in Sources */,
+				FA0314ED2C177BAD0096616C /* FindTourTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD0EB5D02C173163007AAC8B /* Sources */ = {
+		FA0314F32C177BBB0096616C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD0EB5DB2C173163007AAC8B /* FindTourUITestsLaunchTests.swift in Sources */,
-				DD0EB5D92C173163007AAC8B /* FindTourUITests.swift in Sources */,
+				FA0314FC2C177BBC0096616C /* FindTourUITestsLaunchTests.swift in Sources */,
+				FA0314FA2C177BBC0096616C /* FindTourUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DD0EB5CC2C173163007AAC8B /* PBXTargetDependency */ = {
+		FA0314EF2C177BAD0096616C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = DD0EB5B92C173161007AAC8B /* FindTour */;
-			targetProxy = DD0EB5CB2C173163007AAC8B /* PBXContainerItemProxy */;
+			targetProxy = FA0314EE2C177BAD0096616C /* PBXContainerItemProxy */;
 		};
-		DD0EB5D62C173163007AAC8B /* PBXTargetDependency */ = {
+		FA0314FE2C177BBC0096616C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = DD0EB5B92C173161007AAC8B /* FindTour */;
-			targetProxy = DD0EB5D52C173163007AAC8B /* PBXContainerItemProxy */;
+			targetProxy = FA0314FD2C177BBC0096616C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -534,19 +534,20 @@
 			};
 			name = Release;
 		};
-		DD0EB5E22C173163007AAC8B /* Debug */ = {
+		FA0314F12C177BAD0096616C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 62VLSN5H88;
+				DEVELOPMENT_TEAM = RD328L84B6;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ru.deshab.FindTourTests;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.planethost.FindTourTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -554,37 +555,40 @@
 			};
 			name = Debug;
 		};
-		DD0EB5E32C173163007AAC8B /* Release */ = {
+		FA0314F22C177BAD0096616C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 62VLSN5H88;
+				DEVELOPMENT_TEAM = RD328L84B6;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ru.deshab.FindTourTests;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.planethost.FindTourTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindTour.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FindTour";
 			};
 			name = Release;
 		};
-		DD0EB5E52C173163007AAC8B /* Debug */ = {
+		FA0315002C177BBC0096616C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 62VLSN5H88;
+				DEVELOPMENT_TEAM = RD328L84B6;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ru.deshab.FindTourUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.planethost.FindTourUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -592,18 +596,20 @@
 			};
 			name = Debug;
 		};
-		DD0EB5E62C173163007AAC8B /* Release */ = {
+		FA0315012C177BBC0096616C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 62VLSN5H88;
+				DEVELOPMENT_TEAM = RD328L84B6;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ru.deshab.FindTourUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.planethost.FindTourUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = FindTour;
@@ -631,20 +637,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DD0EB5E12C173163007AAC8B /* Build configuration list for PBXNativeTarget "FindTourTests" */ = {
+		FA0314F02C177BAD0096616C /* Build configuration list for PBXNativeTarget "FindTourTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DD0EB5E22C173163007AAC8B /* Debug */,
-				DD0EB5E32C173163007AAC8B /* Release */,
+				FA0314F12C177BAD0096616C /* Debug */,
+				FA0314F22C177BAD0096616C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DD0EB5E42C173163007AAC8B /* Build configuration list for PBXNativeTarget "FindTourUITests" */ = {
+		FA0314FF2C177BBC0096616C /* Build configuration list for PBXNativeTarget "FindTourUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DD0EB5E52C173163007AAC8B /* Debug */,
-				DD0EB5E62C173163007AAC8B /* Release */,
+				FA0315002C177BBC0096616C /* Debug */,
+				FA0315012C177BBC0096616C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
