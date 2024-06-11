@@ -2,7 +2,6 @@
 //  FindTourUITests.swift
 //  FindTourUITests
 //
-//  Created by Лаборатория on 10.06.2024.
 //
 
 import XCTest

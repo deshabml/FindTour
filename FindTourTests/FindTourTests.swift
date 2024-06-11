@@ -2,11 +2,10 @@
 //  FindTourTests.swift
 //  FindTourTests
 //
-//  Created by Лаборатория on 10.06.2024.
+//  Created by macbook on 10.06.2024.
 //
 
 import XCTest
-@testable import FindTour
 
 final class FindTourTests: XCTestCase {
 
@@ -28,7 +27,7 @@ final class FindTourTests: XCTestCase {
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
-        self.measure {
+        measure {
             // Put the code you want to measure the time of here.
         }
     }
