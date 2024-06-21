@@ -8,9 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		DD0EB5BE2C173161007AAC8B /* FindTourApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0EB5BD2C173161007AAC8B /* FindTourApp.swift */; };
-		DD0EB5C02C173161007AAC8B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0EB5BF2C173161007AAC8B /* ContentView.swift */; };
 		DD0EB5C22C173163007AAC8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD0EB5C12C173163007AAC8B /* Assets.xcassets */; };
 		DD0EB5C52C173163007AAC8B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD0EB5C42C173163007AAC8B /* Preview Assets.xcassets */; };
+		DD4586D22C2573980047227F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4586D12C2573980047227F /* MainView.swift */; };
+		DD4586D52C2573E00047227F /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4586D42C2573E00047227F /* Coordinator.swift */; };
+		DD4586D72C2574590047227F /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4586D62C2574590047227F /* File.swift */; };
+		DD4586D92C2574F30047227F /* MapScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4586D82C2574F30047227F /* MapScreenView.swift */; };
 		FA0314ED2C177BAD0096616C /* FindTourTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0314EC2C177BAD0096616C /* FindTourTests.swift */; };
 		FA0314FA2C177BBC0096616C /* FindTourUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0314F92C177BBC0096616C /* FindTourUITests.swift */; };
 		FA0314FC2C177BBC0096616C /* FindTourUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0314FB2C177BBC0096616C /* FindTourUITestsLaunchTests.swift */; };
@@ -52,9 +55,12 @@
 /* Begin PBXFileReference section */
 		DD0EB5BA2C173161007AAC8B /* FindTour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindTour.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD0EB5BD2C173161007AAC8B /* FindTourApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindTourApp.swift; sourceTree = "<group>"; };
-		DD0EB5BF2C173161007AAC8B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DD0EB5C12C173163007AAC8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD0EB5C42C173163007AAC8B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DD4586D12C2573980047227F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		DD4586D42C2573E00047227F /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		DD4586D62C2574590047227F /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		DD4586D82C2574F30047227F /* MapScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapScreenView.swift; sourceTree = "<group>"; };
 		FA0314EA2C177BAD0096616C /* FindTourTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindTourTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA0314EC2C177BAD0096616C /* FindTourTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindTourTests.swift; sourceTree = "<group>"; };
 		FA0314F72C177BBC0096616C /* FindTourUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindTourUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,7 +122,9 @@
 			children = (
 				FAB1D2212C173CD400C5A5F7 /* Info.plist */,
 				DD0EB5E82C17325D007AAC8B /* Application */,
-				DD0EB5BF2C173161007AAC8B /* ContentView.swift */,
+				DD4586D02C2573740047227F /* MainView */,
+				DD4586CF2C256F200047227F /* MapScreen */,
+				DD4586D32C2573C80047227F /* Coordinator */,
 				DD0EB5E72C173224007AAC8B /* Supporting files */,
 				DD0EB5C32C173163007AAC8B /* Preview Content */,
 			);
@@ -145,6 +153,31 @@
 				DD0EB5BD2C173161007AAC8B /* FindTourApp.swift */,
 			);
 			path = Application;
+			sourceTree = "<group>";
+		};
+		DD4586CF2C256F200047227F /* MapScreen */ = {
+			isa = PBXGroup;
+			children = (
+				DD4586D82C2574F30047227F /* MapScreenView.swift */,
+			);
+			path = MapScreen;
+			sourceTree = "<group>";
+		};
+		DD4586D02C2573740047227F /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				DD4586D12C2573980047227F /* MainView.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		DD4586D32C2573C80047227F /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				DD4586D42C2573E00047227F /* Coordinator.swift */,
+				DD4586D62C2574590047227F /* File.swift */,
+			);
+			path = Coordinator;
 			sourceTree = "<group>";
 		};
 		FA0314EB2C177BAD0096616C /* FindTourTests */ = {
@@ -303,7 +336,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD0EB5C02C173161007AAC8B /* ContentView.swift in Sources */,
+				DD4586D72C2574590047227F /* File.swift in Sources */,
+				DD4586D52C2573E00047227F /* Coordinator.swift in Sources */,
+				DD4586D92C2574F30047227F /* MapScreenView.swift in Sources */,
+				DD4586D22C2573980047227F /* MainView.swift in Sources */,
 				DD0EB5BE2C173161007AAC8B /* FindTourApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
